@@ -1,10 +1,10 @@
 # Starter for Node.js applications written in TypeScript
 
-A basic Starter for Node + TypeScript development with setup for [VSCode](https://code.visualstudio.com/) debugging, Jest, Eslint and more.
+👌 A basic Starter for Node + TypeScript development with setup for [VSCode](https://code.visualstudio.com/) debugging, Jest, Eslint and more.
 
 ---
 
-__👌 This project contains the following settings:__
+__This project contains the following settings:__
 - Consistent coding styles using [EditorConfig](https://editorconfig.org/)
 - Linting via [eslint](https://eslint.org/), [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) and [prettier](https://prettier.io/)
 - Testing via [Jest](https://jestjs.io/) and [ts-jest](https://github.com/kulshekhar/ts-jest)
@@ -41,3 +41,30 @@ yarn dev:server
 | prettier.config.js | Prettier settings | 
 | tsconfig.json | Typescript settings | 
 | .vscode | Contains VS Code specific settings |
+
+## Eslint + VS Code Settings
+
+1. Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+2. Add the rules below into `settings.json` (you can do this via the command palette (View > Command Palette, type settings.json and press enter):
+```
+"[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+    }
+  },
+```
