@@ -4,7 +4,7 @@ A basic Starter for Node + TypeScript development with setup for [VSCode](https:
 
 ---
 
-__👌  The follwing is setup out of the box:__
+__👌 This project contains the following settings:__
 - Consistent coding styles using [EditorConfig](https://editorconfig.org/)
 - Linting via [eslint](https://eslint.org/), [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) and [prettier](https://prettier.io/)
 - Testing via [Jest](https://jestjs.io/) and [ts-jest](https://github.com/kulshekhar/ts-jest)
